@@ -1,0 +1,8 @@
+/.settings
+/.classpath
+/.mymetadata
+/.project
+/target
+*.class
+WebRoot/WEB-INF/classes/
+.DS_Store

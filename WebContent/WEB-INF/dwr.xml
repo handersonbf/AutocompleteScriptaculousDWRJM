@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dwr PUBLIC
+    "-//GetAhead Limited//DTD Direct Web Remoting 3.0//EN"
+    "http://getahead.org/dwr/dwr30.dtd">
+
+<dwr>
+
+  <allow>
+
+	<create creator="new" javascript="FacadeAjax" >
+      <param name="class" value="com.jm.facade.FacadeAjax"/>
+    </create>
+	
+    <convert converter="bean" match="com.jm.bean.*">
+    </convert>
+    
+    <convert converter="exception" match="java.lang.Exception"/>
+    <convert converter="bean" match="java.lang.StackTraceElement"/>
+
+  </allow>
+
+</dwr>

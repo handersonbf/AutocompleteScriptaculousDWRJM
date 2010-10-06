@@ -1,0 +1,40 @@
+/**
+ * The automcomplete box styling
+ */
+div.auto_complete {
+    width: 350px;
+    background: #000000;
+}
+
+div.auto_complete ul {
+    border: 1px solid #ffffff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+}
+
+div.auto_complete ul li {
+    margin: 0;
+    padding: 3px;
+    text-align: left;
+    color: #ffffff;
+}
+
+div.auto_complete ul li.selected {
+    background-color: #FF6633;
+}
+
+div.auto_complete ul strong.highlight {
+    color: #800;
+    margin:0;
+    padding:0;
+}
+
+/**
+ * Cor do token encontrado
+**/
+div.auto_complete font {
+	color: #ffffff;
+	font-weight: bolder;
+}
