@@ -13,4 +13,10 @@ Script.aculo.us 1.8.3 - http://script.aculo.us/
 ----------
 http://www.handersonfrota.com.br/artigos-tutoriais/dwr/
 
-
+----------
+/sql
+	-Script MySql para geração do banco, necessário para o exemplo.
+	-MySQL script for generating the bank, required for example.
+	
+	
+by Handerson Frota - www.handersonfrota.com.br / twitter: handersonbf
