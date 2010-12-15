@@ -32,7 +32,4 @@ public class User {
 		this.pass = pass;
 	}
 	
-	
-	
-	
 }

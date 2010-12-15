@@ -78,5 +78,4 @@ public class UsuarioDAO {
 		return listaPessoas;
 	}
 	
-
 }

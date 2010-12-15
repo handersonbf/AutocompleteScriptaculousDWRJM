@@ -9,7 +9,6 @@ public class FacadeAjax {
 
 	private UserDAO userDAO = new UserDAO();
 	
-	
 	public List<String> allUsersStrings(String token) throws Exception{
 		return userDAO.allUsersStrings(token);
 	}
