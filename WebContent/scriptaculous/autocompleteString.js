@@ -1,3 +1,6 @@
+//Inicializando o Autocomplete
+new Autocompleter.DWR("name", "divName", executeAutocomplete, {fullSearch:false});
+
 function executeAutocomplete(oAutocomplete, token) {
 	FacadeAjax.allUsersStrings(token,{
 		callback:function(listResult){
